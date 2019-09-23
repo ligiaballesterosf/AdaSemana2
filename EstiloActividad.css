@@ -24,10 +24,12 @@ body {
     background: white;
 
 }
-.boton{
+
+.boton {
     display: none;
 }
-.boton:checked + .actividad {
+
+.boton:checked+.actividad {
     background-position-x: 65px;
     background-position-y: -50px;
 }
