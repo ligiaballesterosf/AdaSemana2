@@ -17,6 +17,7 @@ label {
     background-position-x: 65px;
     background-position-y: -50px;
     background-size      : 200px;
+    display              : none;
 
 }
 
@@ -26,5 +27,11 @@ label {
 
 .boton:checked+.actividad {
     background-position-x: 65px;
-    background-position-y: -50px;
+
+}
+
+.actividad:hover {
+    background-position-x: 125px;
+    cursor               : pointer;
+
 }
