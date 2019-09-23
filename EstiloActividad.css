@@ -1,26 +1,33 @@
 .actividad {
-    background         : url("img/checkbox.png");
+    background           : url("img/checkbox.png");
     background-position-x: -15px;
     background-position-y: -50px;
-    background-size    : 200px;
+    background-size      : 200px;
 }
 
 label {
-    height : 50px;
-    width  : 50px;
-    display: inline-block;
+    height           : 50px;
+    width            : 50px;
+    display          : inline-block;
     background-repeat: no-repeat;
 }
 
 .actividad2 {
-    background         : url("img/checkbox.png");
+    background           : url("img/checkbox.png");
     background-position-x: 65px;
     background-position-y: -50px;
-    background-size    : 200px;
+    background-size      : 200px;
 
 }
 
 body {
     background: white;
 
-}  
+}
+.boton{
+    display: none;
+}
+.boton:checked + .actividad {
+    background-position-x: 65px;
+    background-position-y: -50px;
+}
