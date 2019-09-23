@@ -1,11 +1,12 @@
 .fondo {
     height             : 100vh;
-    background-image   : url('fondo.jpg');
     width              : 100vw;
-    background-size    : cover;
+    /*background-image   : url('fondo.jpg');
+    background-size    : 100%;
     background-repeat  : no-repeat;
-    background-position: center;
-    margin             : auto;
+    background-position: center;*/
+    background: url("img/fondo.jpg") center no-repeat;
+    background-size: 100%
 }
 
 body {
