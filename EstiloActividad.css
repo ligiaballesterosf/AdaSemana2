@@ -10,6 +10,7 @@ label {
     width            : 50px;
     display          : inline-block;
     background-repeat: no-repeat;
+    cursor           : pointer
 }
 
 .actividad2 {
@@ -32,6 +33,5 @@ label {
 
 .actividad:hover {
     background-position-x: 125px;
-    cursor               : pointer;
 
 }
